@@ -20,7 +20,7 @@ def score_classifier(dataset,classifier,labels):
     """
 
     kf = KFold(n_splits=3,random_state=50,shuffle=True)
-    sconfusion_mat = np.zeros((2,2))
+    confusion_mat = np.zeros((2,2))
     recall = 0
     for training_ids,test_ids in kf.split(dataset):
         training_set = dataset[training_ids]
