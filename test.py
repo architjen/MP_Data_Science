@@ -1,13 +1,11 @@
 import numpy as np
 import pandas as pd
-import matplotlib
-from matplotlib import pyplot as plt
+import matplotlib.pyplot as plt
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.model_selection import KFold
 from sklearn.metrics import confusion_matrix
 from sklearn.metrics import recall_score
 from sklearn.svm import SVC
-from sklearn.ensemble import RandomForestClassifier
 
 def score_classifier(dataset,classifier,labels):
 
