@@ -6,4 +6,3 @@ sklearn
 scipy 
 seaborn 
 gunicorn
-pickle
