@@ -18,25 +18,25 @@
 
      <!-- Main Input For Receiving Query to our ML -->
     <form action="{{ url_for('predict')}}"method="post">
-    	<input type="text" name="experience" placeholder="Games Played" required="required" />
-      <input type="text" name="test_score" placeholder="Minutes Played" required="required" />
-		<input type="text" name="interview_score" placeholder="Points per Game" required="required" />
-    <input type="text" name="experience" placeholder="Field Goals Made" required="required" />
-    <input type="text" name="experience" placeholder="Field Goal Attempt" required="required" />
-    <input type="text" name="experience" placeholder="Field Goal Percent" required="required" />
-    <input type="text" name="experience" placeholder="3 Point Made" required="required" />
-    <input type="text" name="experience" placeholder="3 Point Attempt" required="required" />
-    <input type="text" name="experience" placeholder="3 Point Perent" required="required" />
-    <input type="text" name="experience" placeholder="Free Throw Made" required="required" />
-    <input type="text" name="experience" placeholder="Free Throw Attempt" required="required" />
-    <input type="text" name="experience" placeholder="Free Throws Percent" required="required" />
-    <input type="text" name="experience" placeholder="Offensive Rebound" required="required" />
-    <input type="text" name="experience" placeholder="Defensive Rebound" required="required" />
-    <input type="text" name="experience" placeholder="Rebounds" required="required" />
-    <input type="text" name="experience" placeholder="Assists" required="required" />
-    <input type="text" name="experience" placeholder="Steals" required="required" />
-    <input type="text" name="experience" placeholder="Blocks" required="required" />
-    <input type="text" name="experience" placeholder="Turnovers" required="required" />
+    	<input type="text" name="GP" placeholder="Games Played" required="required" />
+      <input type="text" name="MIN" placeholder="Minutes Played" required="required" />
+		<input type="text" name="PTS" placeholder="Points per Game" required="required" />
+    <input type="text" name="FGM" placeholder="Field Goals Made" required="required" />
+    <input type="text" name="FGA" placeholder="Field Goal Attempt" required="required" />
+    <input type="text" name="FG%" placeholder="Field Goal Percent" required="required" />
+    <input type="text" name="3P Made" placeholder="3 Point Made" required="required" />
+    <input type="text" name="3PA" placeholder="3 Point Attempt" required="required" />
+    <input type="text" name="3P%" placeholder="3 Point Perent" required="required" />
+    <input type="text" name="FTM" placeholder="Free Throw Made" required="required" />
+    <input type="text" name="FTA" placeholder="Free Throw Attempt" required="required" />
+    <input type="text" name="FT%" placeholder="Free Throws Percent" required="required" />
+    <input type="text" name="OREB" placeholder="Offensive Rebound" required="required" />
+    <input type="text" name="DREB" placeholder="Defensive Rebound" required="required" />
+    <input type="text" name="REB" placeholder="Rebounds" required="required" />
+    <input type="text" name="AST" placeholder="Assists" required="required" />
+    <input type="text" name="STL" placeholder="Steals" required="required" />
+    <input type="text" name="BLK" placeholder="Blocks" required="required" />
+    <input type="text" name="TOV" placeholder="Turnovers" required="required" />
 
         <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
     </form>
