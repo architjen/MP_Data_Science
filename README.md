@@ -1,6 +1,10 @@
-# Test_Data_Science
+# Test_Data_Science:
 
 The end-to-end DS for NBA dataset with deployement using PaaS Heroku:   
+
+- Create a virtual env `python3 -m venv test_env`  
+  Activate the env: `source test_env/bin/activate`  
+  get all the packages: `pip install -r requirements.txt`
 
 - To see the modeling part please follow Modeling.ipynb  
 
