@@ -1,4 +1,5 @@
 #The Flask webservice file 
+#To run the file `python app.py`
 
 import numpy as np
 from flask import Flask, request, render_template
