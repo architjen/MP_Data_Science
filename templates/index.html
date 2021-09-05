@@ -18,19 +18,31 @@
 
      <!-- Main Input For Receiving Query to our ML -->
     <form action="{{ url_for('predict')}}"method="post">
-    	<input type="text" name="experience" placeholder="Experience" required="required" />
-        <input type="text" name="test_score" placeholder="Test Score" required="required" />
-		<input type="text" name="interview_score" placeholder="Interview Score" required="required" />
+    	<input type="text" name="experience" placeholder="Games Played" required="required" />
+      <input type="text" name="test_score" placeholder="Minutes Played" required="required" />
+		<input type="text" name="interview_score" placeholder="Points per Game" required="required" />
+    <input type="text" name="experience" placeholder="Field Goals Made" required="required" />
+    <input type="text" name="experience" placeholder="Field Goal Attempt" required="required" />
+    <input type="text" name="experience" placeholder="Field Goal Percent" required="required" />
+    <input type="text" name="experience" placeholder="3 Point Made" required="required" />
+    <input type="text" name="experience" placeholder="3 Point Attempt" required="required" />
+    <input type="text" name="experience" placeholder="3 Point Perent" required="required" />
+    <input type="text" name="experience" placeholder="Free Throw Made" required="required" />
+    <input type="text" name="experience" placeholder="Free Throw Attempt" required="required" />
+    <input type="text" name="experience" placeholder="Free Throws Percent" required="required" />
+    <input type="text" name="experience" placeholder="Offensive Rebound" required="required" />
+    <input type="text" name="experience" placeholder="Defensive Rebound" required="required" />
+    <input type="text" name="experience" placeholder="Rebounds" required="required" />
+    <input type="text" name="experience" placeholder="Assists" required="required" />
+    <input type="text" name="experience" placeholder="Steals" required="required" />
+    <input type="text" name="experience" placeholder="Blocks" required="required" />
+    <input type="text" name="experience" placeholder="Turnovers" required="required" />
 
         <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
     </form>
-
    <br>
    <br>
-   
-
+   {{ prediction_text }}
  </div>
-
-
 </body>
 </html>
