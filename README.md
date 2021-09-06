@@ -13,3 +13,18 @@ The end-to-end DS for NBA dataset with deployement using PaaS Heroku:
 
 - To view the deployed app on Heroku PaaS follow the link: https://player-stats-nba.herokuapp.com/
 
+### Files
+
+- nba_logreg.csv: the csv file for training and validating
+
+- Modeling.ipynb: The jupyter file which performs the EDA/processing and rolls out the final ML model
+
+- app.py: The file which uses Flask to locally serve the model 
+
+- model.pkl: the final model
+
+- scaler.pkl: the pkl file for normalising the input, before performing the predict
+
+- Procfile: For deploying the app on PaaS Heroku
+
+- requirements.txt: For creating a virtual env 
