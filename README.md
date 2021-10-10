@@ -1,4 +1,4 @@
-# Test_Data_Science:
+# End-to-End_Data_Science:
 
 The end-to-end DS for NBA dataset with deployement using PaaS Heroku:   
 
