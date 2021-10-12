@@ -1,6 +1,6 @@
 # End-to-End_Data_Science:
 
-The end-to-end DS for NBA dataset with deployement using PaaS Heroku:   
+The end-to-end DS for NBA dataset with deployment using PaaS Heroku:   
 
 - Create a virtual env `python3 -m venv test_env`  
   Activate the env: `source test_env/bin/activate`  
