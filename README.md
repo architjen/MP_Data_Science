@@ -60,3 +60,5 @@ The task is performed using Python 3.9.7
 
 - To view the deployed app on Heroku PaaS follow the link: https://player-stats-nba.herokuapp.com/
 
+## Blog
+To follow the project in more detail, please refer the [blog](https://nestontree.wordpress.com/2021/10/02/part-1-end-to-end-ds-project-eda/) and follow along
