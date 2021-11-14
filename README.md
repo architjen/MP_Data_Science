@@ -49,8 +49,8 @@ The task is performed using Python 3.9.7
 ### Build
 - Clone the repo locally
 - Create a virtual env `python3 -m venv test_env`  
-  Activate the env: `source test_env/bin/activate`  
-  get all the packages: `pip install -r requirements.txt`
+- Activate the env: `source test_env/bin/activate`  
+- Get all the packages: `pip install -r requirements.txt`
 
 ### Testing
 - To see the modeling part please follow Modeling.ipynb  
